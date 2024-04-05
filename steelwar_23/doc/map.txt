@@ -1,0 +1,60 @@
+Steelwar: mappe
+
+Ogni scenario sarà costituito da 2 file:
+
+
+1° FILE:
+	(La mappa 3d solo terreno)
+
+	Tipo: 3d model
+	Programma di creazione:
+	Dimensioni: medie
+	Formato originale:
+	Formato: .3dt (3Dimensional Terrain)
+
+
+2° FILE:
+	(File dove ci sono le posizioni degli ogetti dinamici nello scenario. I file degli
+	 oggetti, sono reperibili nella cartella /obj.)
+	
+	Tipo: textual file
+	Programma di creazione: qualsiasi text editor
+	Dimensioni: piccole
+	Formato originale: .txt
+	Formato: .ol (Obj List)
+
+
+	Sintassi:
+		[REFERENZE]
+		objdir = ''		# La cartella detro la cartella obj ke kontine gli oggetti
+					# In questo caso, quelli di default
+		txtdir = ''		# La cartella detro la cartella texture ke kontine le
+					# texture. In questo caso, quelli di default
+		
+		[OGGETTI]
+		sq1.p.ogg = x.y.z	# La posizione dell'oggetto per squadra 1
+		sq1.t.ogg = 5 		# Tempo per ricomparire l'oggetto di squadra 1
+
+		sq2.p.ogg = x.y.z	# La posizione dell'oggetto per squadra 2
+		sq2.t.ogg = 5 		# Tempo per ricomparire l'oggetto di squadra 2
+
+		sqn.p.ogg = x.y.z	# La posizione dell'oggetto per squadra neutrale
+		sqn.t.ogg = 5 		# Tempo per ricomparire l'oggetto di squadra neutrale
+		# Squadra neutrale usata per alberi e abitazioni
+
+		# Le cordinate sn x, y e z
+		# Gli oggetti sono nella objdir
+
+		[AMBIENTALI]
+		air.set = 1		# Setta il tipo di nuvole (da 0 a 10 per intensità)
+		fog.set = 0		# Setta il tipo di nebbia (da 0 a 10 per intensità)
+		sun.set = 9		# Setta il tipo di sole (da 0 a 10 per luminosità)
+		wat.set = 1		# Setta il tipo di acqua (da 0 a 10 per trasparenza)
+		time.set = 1		# Setta l'ora :
+					#	1 = mattino
+					#	2 = mezzoggiorno
+					#	3 = pomeriggio
+					#	4 = imbrunire
+					#	5 = notte
+	
+		

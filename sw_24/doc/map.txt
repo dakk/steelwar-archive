@@ -1,0 +1,16 @@
+data/maps
+	+++ map.ls
+			+++ normandy
+			+++ kaen
+			+++ guadalcanal
+			
+	+++ normandy
+			+++ map.map
+					+++ skybox 1
+					+++ night/day
+					+++ map.pk3
+					+++ map.bsd
+					
+			+++ map.pk3
+				+++ map.bsd
+					

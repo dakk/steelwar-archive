@@ -1,0 +1,25 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "Plane.149"
+data 9
+Plane.199
+texture "mencar.jpg"
+texrep 1 1
+crease 30
+numvert 4
+-0.075761 1.408501 0.501374
+-0.075886 1.404271 -4.794245
+-0.010202 -2.553811 -4.785538
+-0.010327 -2.534515 0.510048
+numsurf 1
+SURF 0x00
+mat 0
+refs 4
+0 0.0 1.0
+3 0.0 0.0
+2 1.0 0.0
+1 1.0 1.0
+kids 0

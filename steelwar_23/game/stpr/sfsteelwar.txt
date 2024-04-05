@@ -1,0 +1,18 @@
+SteelWar
+
+This project consists in the creation of a first personal shotter realized with blender (an opensource 3d editor whit a game engine) and the language python.
+
+
+# License :: OSI-Approved Open Source :: GNU General Public License (GPL)
+# Intended Audience :: Other Audience
+# Development Status :: 1 - Planning
+# Development Status :: 2 - Pre-Alpha
+# Topic :: Games/Entertainment :: First Person Shooters
+# Programming Language :: Python
+# Operating System :: Grouping and Descriptive Categories :: 32-bit MS Windows (NT/2000/XP)
+# Operating System :: Grouping and Descriptive Categories :: OS Portable (Source code to work with many OS platforms)
+# Operating System :: Modern (Vendor-Supported) Desktop Operating Systems :: Linux
+# Translations :: Italian 
+
+
+This first personal shotter it will come created with blender (a program opensource for the modellazione 3d with game a extensible engine in python) and the language python.  The game will be a game online (that poor artificial inteliggenza uses the socket of python) in order not incurring to relative problems you to one.  Perhaps the game is acclimatized in the second world war and has like protagonists of the axis and of it allies to you.

@@ -1,0 +1,10 @@
+Ideatore e creatore:
+	Dak91			(Creatore tuttofare e ideatore) 
+
+Tester e aiutanti vari:
+	NocturneWolf91		(Nome gioco e tester, considerazioni e suggerimenti)
+	Hiro			(Tester, considerazioni e suggerimenti)
+	Otacon_22		(Aiutante per la parte relativa sourceforge e consigli)
+
+Grafica:
+	MarmottaNinja 		(Grafico sfondo menù)

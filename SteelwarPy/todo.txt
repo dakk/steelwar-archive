@@ -1,0 +1,9 @@
+Cose da fare:
+
+-collision detection
+-gestione audio
+-gui di avvio
+-menu di pausa e di avvio
+-3^ persona e 1^ persona intercambiabili
+-movimento modelli 3d
+-interazione(es casse, armi perterra)

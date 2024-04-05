@@ -1,0 +1,29 @@
+Struttura gioco online:
+
+server:
+	crea un server
+	ciclo di ricezione ogni (t)
+		appena riceve le info le applica al gioco in esecuzione sul server
+		preleva i dati dal gioco 
+		rispedisci ai client tutti i cambiamenti
+
+client: 
+	connette al server
+	il giocatore gioca
+		ogni (t) invia dati del personaggio al server
+		ogni (t) riceve i dati delle azioni degli altri personaggi
+
+
+
+
+
+
+Dimesioni:
+
+rota: 0.00
+loca: 00000.0000 x; 00000.0000 y; 00000.0000 z
+arma: 0
+stat: true/false (vita)
+vita: 100
+ 
+

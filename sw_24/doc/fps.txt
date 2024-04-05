@@ -1,0 +1,7 @@
+Versione 0.5
+
+Opengl
+Worm -> 3ghz -> nvidia geforge 6600 256 mb -> 1024 ram -> linux -> 300 FPS
+Dak -> 1,2ghz -> ati rage 128 mb -> 256 ram -> linux -> 30 FPS
+TyRiOn -> athlon xp 1900mhz -> ati vekkia -> 500 ram -> linux -> FPS
+Otacon22  -> 3.00 Ghtz -> 1GB ram -> GeForce FX 5500 256mb -> linux -> 85 FPS

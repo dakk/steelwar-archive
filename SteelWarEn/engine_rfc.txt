@@ -1,0 +1,75 @@
+# Steelwar's Engine
+# Created from #nocopy's group
+
+* = working in progress
+
+---> engine/ 			[ all steelwar engine's classes 	]
+ |
+ |---------> SDevice.py		[ device class				]
+ |
+ |--------------------> __init__(x,y,fullscreen, title)	[ Get a device		  	]
+ |
+ |--------------------> SetTitle(title)			[ Set window title 		]
+ |
+ |--------------------> DrawAll				[ Draw all object 		]
+ |
+ |--------------------> Clear([r,g,b,a])		[ Clear screen	 		]
+ |
+ |--------------------> GetFps()			[ Return FPS	 		]
+ |
+ |
+ |---------> SSceneNode.py	[ scene node class 			]
+ |
+ |--------------------> __init__()			[ Get a scene node		]
+ |
+ |--------------------> SetPosition([x,y,z])		[ Set current node position	]
+ |
+ |--------------------> GetPosition()			[ Return [x,y,z]		]
+ |
+ |--------------------> SetRotation([rx,ry,rz])		[ Set current node rotation	]
+ |
+ |--------------------> GetRotation()			[ Return [rx,ry,rz]		]
+ |
+ |
+ |---------> SCameraNode.py	[ camera node class 			]
+ |
+ |--------------------> __init__()			[ Get a camera node		]
+ |
+ |--------------------> SetPosition([x,y,z])		[ Set current camera position	]
+ |
+ |--------------------> GetPosition()			[ Return [x,y,z]		]
+ |
+ |--------------------> SetRotation([rx,ry,rz])		[ Set current camera rotation	]
+ |
+ |--------------------> GetRotation()			[ Return [rx,ry,rz]		]
+ |
+ |
+ |---------> SMesh.py		[ mesh loader				]
+ |
+ *--------------------> LoadMesh(path)			[ Load 3dmodel			]
+ |
+ *--------------------> LoadHeight(path)		[ Load heightmap		]
+ |
+ |
+ |---------> STexture.py	[ texture loader			]
+ |
+ |--------------------> __init__(path)			[ Get a texture object		]
+ |
+ |
+ |---------> SSound.py		[ sound loader and player		]
+ |
+ |--------------------> __init__(path)			[ Get a sound object		]
+ |
+ |--------------------> PlaySound(vol,*[sx,sy,sz,x,y,z])[ Play object			]
+ |
+ |
+ |---------> SGui.py		[ gui function				]
+ |
+ |---------------> SText	[ Text class				]
+ |
+ |-------------- -----> __init__(path)			[ Get a font object		]
+ |
+ |--------------------> Write(text,x,y)			[ Write a text			]
+ |
+ |
+ |

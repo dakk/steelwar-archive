@@ -1,0 +1,36 @@
+# Usa Weapons
+
+Weapon0:
+	name = Thompson
+	model = thompson/thompson
+	texture = thompson/thompson.png
+	position = 15,12,-22	
+	rotation = 5,0,0
+	scale = 25,25,25
+	bullet = 54
+	charg = 5
+	velox = 80
+
+Weapon1:
+	name = Granade
+	bullet = 5
+	charg = 0
+	velox = 5
+
+Weapon2:
+	name = Colt
+	bullet = 7
+	charg = 3
+	velox = 80
+
+Weapon3:
+	name = TryArm
+	bullet = 10
+	charg = 3
+	velox = 80
+
+Weapon4:
+	name = TryArm
+	bullet = 9
+	charg = 3
+	velox = 80

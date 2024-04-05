@@ -1,0 +1,46 @@
+# Mappa di prova
+
+# Definiamo il nome della mappa
+Name = Map1
+
+# Definiamo la mod da utilizzare
+Mod = WorldWar2
+
+# Settiamo la nebbia bianca a livello 0
+Fog = 1,1,1,0.0002
+
+# Settiamo il punto di rientro del team a
+Teama = 0,0,200,usa
+
+# Settiamo il punto di rientro del team b
+Teamb = 0,0,200,usa
+
+# Carichiamo la env map soleggiata
+#Env = desert
+
+# Settiamo un sole bianco
+Sun = 1,1,1,1
+
+
+# Terrain
+Terrain:
+	# Carica la mesh del terreno
+	Mesh = terrain
+
+	Texture = data/dirt.png
+	# Settiamo la scala del terrain
+	Scale = 9000,9000,9000
+
+	# Settiamo la posizione
+	Position = 0,0,69000
+
+	# Settiamo la rotazione
+	Rotation = 0,90,0
+
+#Obj1:
+#	Mesh = data/models/box/crate
+#	Position = 0,0,90000
+#	Scale = 1,1,1
+#	#Rotation = 0,0,0
+
+

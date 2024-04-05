@@ -1,0 +1,9 @@
+Gameserver 0.1 Referenze:
+
+>> +REQUEST_VERSION+
+<< 0.1
+>> +VERSION_ACCEPT+  
+>> +REQUEST_NICK+
+<< Dak
+(se dak nn esiste ancora nella lista)
+>> +NICK_ACCEPT+
